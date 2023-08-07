@@ -2,8 +2,10 @@ node_modules
 
 !*.md
 
-.vitepress
+.vitepress/cache
 
 !*.json
 
 .idea
+
+!.vitepress/config.ts
