@@ -2,9 +2,11 @@ import {defineConfig} from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+    head: [['link', { rel: 'icon', href: '/assets/img/logo.png' }]],
     title: "FollowYourHeart",
     description: "LearningNote",
     themeConfig: {
+        logo: '/assets/img/logo.png',
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             {text: 'Home', link: '/'},
