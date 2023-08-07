@@ -1,5 +1,9 @@
 #!/bin/bash
 
+rm -rf /work/front_end/freewheeling/dist
+
+npm run docs:build
+
 cd /work/front_end
 
 cp -rf ./../freewheeling/.vitepress/dist/ ./freewheeling/
