@@ -4,6 +4,9 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     base: "./",
     head: [['link', {rel: 'icon', href: '/assets/img/logo.png'}]],
+    vite: {
+        assetsInclude: ['assets']
+    },
     title: "FollowYourHeart",
     description: "LearningNote",
     themeConfig: {
