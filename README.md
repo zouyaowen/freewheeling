@@ -1,4 +1,5 @@
 # freewheeling
-个人博客学习记录
+> 部署地址：https://freewheeling.top
+个人博客源码记录
 # 参考资料
-> https://process1024.github.io/vitepress/guide/using-vue
+> https://vitepress.dev/guide/getting-started
